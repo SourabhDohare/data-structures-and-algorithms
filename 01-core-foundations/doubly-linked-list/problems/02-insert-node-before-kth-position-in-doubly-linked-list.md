@@ -107,30 +107,22 @@ class Solution {
     }
 }
 ```
-Time Complexity
 
-O(n)
-Because we may need to traverse the DLL to reach the Kth node (worst case: full traversal).
+## Time Complexity
+- **O(n)**  
+  Because we traverse the list to reach the Kth node.
 
-Space Complexity
+## Space Complexity
+- **O(1)**  
+  Only constant extra pointers are used.
+---
 
-O(1)
-Only constant extra pointers are used.
-
-Key Interview Notes
-
-Always handle K = 1 separately → insertion before head.
-
-Store prevNode = temp.prev before pointer updates (avoid losing reference).
-
-Pointer invariant after insertion:
-
-prevNode.next == newNode
-
-newNode.prev == prevNode
-
-newNode.next == temp
-
-temp.prev == newNode
-
-Be clear about what happens when K is out of bounds (here: insert at tail).
+## Key Interview Notes
+- Always handle `K = 1` separately (insert before head).
+- Store `prevNode = temp.prev` **before** changing pointers.
+- After insertion ensure invariants:
+  - `prevNode.next == newNode`
+  - `newNode.prev == prevNode`
+  - `newNode.next == temp`
+  - `temp.prev == newNode`
+- Decide what to do when `K` is out of bounds (here: insert at tail).
