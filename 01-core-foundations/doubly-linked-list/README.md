@@ -40,6 +40,9 @@ DLL makes operations efficient when we need:
 
 2. **Insert Node Before Kth Position in Doubly Linked List**
    - [`02-insert-node-before-kth-position-in-doubly-linked-list.md`](./problems/02-insert-node-before-kth-position-in-doubly-linked-list.md)
+  
+3. **Insert Node Before a Given Node in Doubly Linked List**
+   - [`03-insert-node-before-given-node-in-doubly-linked-list.md`](./problems/03-insert-node-before-given-node-in-doubly-linked-list.md)
 
 ---
 
@@ -49,4 +52,5 @@ While working with DLL, always ensure:
 - If `node.prev != null` → `node.prev.next == node`
 - `head.prev == null`
 - `tail.next == null`
+
 
