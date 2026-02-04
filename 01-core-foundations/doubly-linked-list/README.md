@@ -44,6 +44,11 @@ DLL makes operations efficient when we need:
 3. **Insert Node Before a Given Node in Doubly Linked List**
    - [`03-insert-node-before-given-node-in-doubly-linked-list.md`](./problems/03-Insert-Node-Before-a-Given-Node-in-Doubly-Linked-List.md)
 
+4. **Add Two Numbers Represented by Linked Lists**
+   - [`04-Add-Two-Numbers-Represented-by-Linked-Lists.md`](./problems/04-Add-Two-Numbers-Represented-by-Linked-Lists.md)
+
+5. **Odd Even Linked List**
+   - [`05-Odd-Even-Linked-List.md`](./problems/05-Odd-Even-Linked-List.md)
 ---
 
 ## Pointer Invariants (Important)
@@ -52,6 +57,7 @@ While working with DLL, always ensure:
 - If `node.prev != null` → `node.prev.next == node`
 - `head.prev == null`
 - `tail.next == null`
+
 
 
 
