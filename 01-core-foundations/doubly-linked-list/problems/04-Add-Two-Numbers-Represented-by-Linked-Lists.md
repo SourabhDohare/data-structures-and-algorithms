@@ -76,7 +76,7 @@ class Solution {
         return dummy.next;
     }
 }
----
+
 ```
 ## Time Complexity
 
