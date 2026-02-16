@@ -50,8 +50,11 @@ DLL makes operations efficient when we need:
 5. **Odd Even Linked List**
    - [`05-Odd-Even-Linked-List.md`](./problems/05-Odd-Even-Linked-List.md)
      
-6. Sort Linked List of 0s, 1s, and 2s
+6. **Sort Linked List of 0s, 1s, and 2s**
    - [`06-Sort-Linked-List-of-0s,1s,and-2s.md`](./problems/06-Sort-Linked-List-of-0s,1s,and-2s.md)
+
+7. **Remove Nth FromEnd of Linked List**
+   - [`07-Remove-Nth-Node-From-End-of-Linked-List.md`](./problems/07-Remove-Nth-Node-From-End-of-Linked-List.md)
 ---
 
 ## Pointer Invariants (Important)
@@ -60,6 +63,7 @@ While working with DLL, always ensure:
 - If `node.prev != null` → `node.prev.next == node`
 - `head.prev == null`
 - `tail.next == null`
+
 
 
 
