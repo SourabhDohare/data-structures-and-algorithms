@@ -30,16 +30,6 @@ This keeps the solution simple, efficient, and easy to reason about.
 ---
 
 ## Approach
-1. Handle edge cases where list has 0 or 1 node.
-2. Use two pointers:
-   - `odd` starting at head
-   - `even` starting at head.next
-3. Store the head of the even list as `evenHead`.
-4. Traverse while both even and even.next are not null:
-   - Link the next odd node
-   - Link the next even node
-5. After the loop, connect the last odd node to the head of the even list.
-
 1. Handle the edge case where the list is empty.
 2. Traverse the list once and count:
 	- number of 0s
@@ -104,10 +94,10 @@ class Solution {
 ## Time Complexity
 
 **O(n)**
-	- One traversal for counting.
-	- One traversal for overwriting
+ -  One traversal for counting.
+ - One traversal for overwriting
 ## Space Complexity
 
 **O(1)**
-	- No extra data structures used.
-	- Sorting done in-place
+ - No extra data structures used.
+ - Sorting done in-place
